@@ -1,0 +1,43 @@
+[[constraint]]
+  branch = "master"
+  name = "github.com/coreswitch/cmd"
+
+[[constraint]]
+  name = "github.com/coreswitch/openconfigd"
+  version = "0.8.0"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/google/gopacket"
+
+[[constraint]]
+  name = "github.com/jessevdk/go-flags"
+  version = "1.4.0"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/lagopus/vsw"
+
+[[constraint]]
+  name = "github.com/sirupsen/logrus"
+  version = "1.4.2"
+
+[[constraint]]
+  name = "github.com/spf13/viper"
+  version = "1.4.0"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/stretchr/testify"
+
+[[constraint]]
+  branch = "master"
+  name = "golang.org/x/net"
+
+[[constraint]]
+  name = "google.golang.org/grpc"
+  version = "1.21.1"
+
+[prune]
+  go-tests = true
+  unused-packages = true
